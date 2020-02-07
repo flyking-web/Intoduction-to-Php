@@ -1,4 +1,6 @@
 <?php
+echo'<title>Lesson1</title>';
+
 //introduction to Php
 //PHP is a widely-used, open source scripting language
 //PHP scripts are executable on the server
@@ -23,6 +25,18 @@ $company2="Toyota <br>";
 echo $company2;
 $company3="Google <br>";
 echo $company3;
+
+
+//Concatenation/Joining
+//joining a variable and a variable : use the dot operator
+echo $company1.$company2;
+$car1="Benz <br>";
+$car2="Toyota <br>" ;
+echo $car1.$car2 ;
+//Joining a string and a variable
+echo "I love $car1 and $car2"
+
+
 
 ?>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
